@@ -1,6 +1,6 @@
 package deepequal
 
-func isSliceEqual(a, b []int) bool {
+func IsSliceEqual(a, b []int) bool {
 	la := len(a)
 	lb := len(b)
 	if la != lb {
